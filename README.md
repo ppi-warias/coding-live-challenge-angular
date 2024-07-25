@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Coding Challenge Steps
+
+1. Install Dependencies: Add necessary dependencies for NgRx, Reactive Forms, and RxJS.
+2. Create Components: Create components to demonstrate data binding and reactive forms.
+3. Set Up NgRx Store: Configure the NgRx store with actions, reducers, selectors, and effects.
+4. Create Services: Implement services to handle data fetching and manipulation.
+5. Integrate Components with Store: Connect components to the store using selectors and dispatch actions.
+6. Use RxJS: Implement RxJS patterns for handling asynchronous data streams.
