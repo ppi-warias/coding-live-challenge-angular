@@ -29,9 +29,28 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Coding Challenge Steps
 
-1. Install Dependencies: Add necessary dependencies for NgRx, Reactive Forms, and RxJS.
-2. Create Components: Create components to demonstrate data binding and reactive forms.
-3. Set Up NgRx Store: Configure the NgRx store with actions, reducers, selectors, and effects.
-4. Create Services: Implement services to handle data fetching and manipulation.
-5. Integrate Components with Store: Connect components to the store using selectors and dispatch actions.
-6. Use RxJS: Implement RxJS patterns for handling asynchronous data streams.
+### Coding Challenge: Building a Todo Application with NgRx, Angular Components, Reactive Forms, Directives, and RxJS
+#### Objective:
+Create a Todo application that allows users to add, edit, delete, and filter tasks. The application should use NgRx for state management, Angular components for UI, Angular Reactive Forms for form handling, custom directives for UI enhancements, and RxJS for reactive programming patterns.
+
+#### Requirements:
+**NgRx Store:**
+
+Set up NgRx store to manage the state of the todo list.
+Create actions, reducers, and selectors for adding, editing, deleting, and filtering tasks.
+
+**Angular Components:**
+
+Create a main TodoComponent to display the list of tasks.
+Create a TodoFormComponent for adding and editing tasks.
+Create a TodoFilterComponent for filtering tasks.
+Angular Reactive Forms:
+
+Use Reactive Forms in TodoFormComponent to handle task input.
+Validate the form to ensure tasks have a title.
+Angular Directives:
+
+Create a custom directive to highlight overdue tasks.
+RxJS Patterns:
+
+Use RxJS operators to handle asynchronous operations and state changes.
